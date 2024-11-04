@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="764.0" prefWidth="395.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.virginia.cs.gui.WordleController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label fx:id="welcomeText" alignment="CENTER" prefHeight="44.0" prefWidth="154.0" text="Wordle">
+      <font>
+         <Font name="Georgia Bold" size="38.0" />
+      </font></Label>
+   <GridPane fx:id="gridPane" gridLinesVisible="true" prefHeight="469.0" prefWidth="355.0">
+     <columnConstraints>
+       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+     </columnConstraints>
+     <rowConstraints>
+       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+     </rowConstraints>
+      <children>
+         <TextField fx:id="input00" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input10" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="1" GridPane.rowIndex="0">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input20" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="2" GridPane.rowIndex="0">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input30" alignment="CENTER" layoutX="153.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="3" GridPane.rowIndex="0">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input40" alignment="CENTER" layoutX="225.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="4" GridPane.rowIndex="0">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input01" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input11" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input21" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input31" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input41" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input02" alignment="CENTER" layoutX="10.0" layoutY="87.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="0" GridPane.rowIndex="2">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input12" alignment="CENTER" layoutX="297.0" layoutY="87.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input22" alignment="CENTER" layoutX="81.0" layoutY="87.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input32" alignment="CENTER" layoutX="153.0" layoutY="87.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input42" alignment="CENTER" layoutX="225.0" layoutY="87.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input03" alignment="CENTER" layoutX="10.0" layoutY="163.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="0" GridPane.rowIndex="3">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input13" alignment="CENTER" layoutX="81.0" layoutY="163.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input23" alignment="CENTER" layoutX="153.0" layoutY="163.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input33" alignment="CENTER" layoutX="225.0" layoutY="163.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input43" alignment="CENTER" layoutX="297.0" layoutY="163.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input04" alignment="CENTER" layoutX="10.0" layoutY="239.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="0" GridPane.rowIndex="4">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input14" alignment="CENTER" layoutX="81.0" layoutY="239.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input24" alignment="CENTER" layoutX="153.0" layoutY="239.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input34" alignment="CENTER" layoutX="225.0" layoutY="239.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input44" alignment="CENTER" layoutX="297.0" layoutY="239.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input05" alignment="CENTER" layoutX="10.0" layoutY="315.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="0" GridPane.rowIndex="5">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+            <cursor>
+               <Cursor fx:constant="NONE" />
+            </cursor>
+         </TextField>
+         <TextField fx:id="input15" alignment="CENTER" layoutX="81.0" layoutY="315.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input25" alignment="CENTER" layoutX="153.0" layoutY="315.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input35" alignment="CENTER" layoutX="225.0" layoutY="315.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="input45" alignment="CENTER" layoutX="297.0" layoutY="315.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="73.0" prefWidth="73.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
+            <font>
+               <Font name="Trebuchet MS Bold" size="34.0" />
+            </font>
+         </TextField>
+      </children>
+   </GridPane>
+   <Label fx:id="errorLabel">
+      <font>
+         <Font name="Georgia" size="13.0" />
+      </font></Label>
+   <Label fx:id="gameOverText" alignment="TOP_CENTER" prefHeight="90.0" prefWidth="352.0" textAlignment="CENTER" translateY="-25.0">
+      <font>
+         <Font name="Georgia" size="16.0" />
+      </font></Label>
+   <VBox fx:id="playAgainBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="300.0" translateY="-25.0">
+      <children>
+         <Label fx:id="playAgainText" alignment="TOP_CENTER" prefHeight="27.0" prefWidth="395.0" text="Play again?" textAlignment="CENTER">
+            <font>
+               <Font name="Georgia Bold" size="21.0" />
+            </font></Label>
+         <Button fx:id="yesAgain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#restartGame" prefHeight="30.0" prefWidth="50.0" text="Yes" translateX="75.0" translateY="15.0" />
+          <Button fx:id="noAgain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#close" prefHeight="30.0" prefWidth="50.0" text="No" translateX="175.0" translateY="-15.0" />
+      </children>
+   </VBox>
+    <!--Button fx:id="onEnterButton" onAction="#onEnterGuess" text="Enter guess" /-->
+</VBox>
